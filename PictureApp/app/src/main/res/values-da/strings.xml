@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BilledApp</string>
+    <string name="btn_prev">Tilbage</string>
+    <string name="btn_next">Frem</string>
+    <string name="img_content_descr">Sejt billede</string>
+</resources>

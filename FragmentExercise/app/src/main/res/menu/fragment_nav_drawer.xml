@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/whiteMenuItem"
+            android:title="White" />
+        <item
+            android:id="@+id/redMenuItem"
+            android:title="Red" />
+        <item
+            android:id="@+id/greenMenuItem"
+            android:title="Green" />
+        <item
+            android:id="@+id/blueMenuItem"
+            android:title="Blue" />
+        <item
+            android:id="@+id/yellowMenuItem"
+            android:title="Yellow" />
+        <item
+            android:id="@+id/purpleMenuItem"
+            android:title="Purple" />
+    </group>
+</menu>

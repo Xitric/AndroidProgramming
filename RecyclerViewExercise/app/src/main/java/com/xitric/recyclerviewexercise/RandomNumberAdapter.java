@@ -32,7 +32,7 @@ public class RandomNumberAdapter extends RecyclerView.Adapter<RandomNumberAdapte
     @NonNull
     @Override
     public RandomNumberViewHolder onCreateViewHolder(@NonNull ViewGroup viewGroup, int i) {
-        View cellView = LayoutInflater.from(viewGroup.getContext()).inflate(R.layout.random_number_cell, viewGroup,false);
+        View cellView = LayoutInflater.from(viewGroup.getContext()).inflate(R.layout.random_number_cell, viewGroup, false);
         return new RandomNumberViewHolder(cellView);
     }
 

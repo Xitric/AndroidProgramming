@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity implements RandomNumberAdapt
         recycler = findViewById(R.id.randomNumberRecycler);
         recycler.setHasFixedSize(true);
         recycler.setLayoutManager(new GridLayoutManager(this, 2));
-        adapter  =new RandomNumberAdapter(1000, 10000, this);
+        adapter = new RandomNumberAdapter(1000, 10000, this);
         recycler.setAdapter(adapter);
     }
 

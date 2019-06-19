@@ -54,6 +54,8 @@ public class JokeDownloadService extends Service {
             }
         });
         thread.start();
+
+        //If stopped by the system, just restart and do not bother with the intent (pass null)
         return Service.START_STICKY;
     }
 

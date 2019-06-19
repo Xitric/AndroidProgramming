@@ -1,7 +1,5 @@
 package dk.sdu.serviceexercise.chucknorris;
 
-import android.support.annotation.NonNull;
-
 import com.google.gson.Gson;
 import com.google.gson.JsonDeserializationContext;
 import com.google.gson.JsonDeserializer;

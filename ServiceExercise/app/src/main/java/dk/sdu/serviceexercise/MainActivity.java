@@ -50,6 +50,7 @@ public class MainActivity extends AppCompatActivity {
         Log.i(Constants.DEBUG_TAG, "Unregistered broadcast receiver");
     }
 
+    //From exercise 1
     public void onUpdateJokeAction(View view) {
         if (jokeDownloadService != null) {
             Joke joke = jokeDownloadService.getNewlySetJoke();
@@ -57,6 +58,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    //From exercise 1
     public void onUpdateCounterAction(View view) {
         String count = String.valueOf(jokeDownloadService.getJokeCounter());
         ((TextView) findViewById(R.id.jokeCountLabel)).setText(count);
